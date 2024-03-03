@@ -5,6 +5,7 @@ import { ObservableComponent } from './shared/components/observable/observable.c
 import { ListComponent } from './shared/components/observable/list/list.component';
 import { FromComponent } from './shared/components/observable/from/from.component';
 import { IntervalComponent } from './shared/components/observable/interval/interval.component';
+import { OfFromComponent } from './shared/components/observable/of-from/of-from.component';
 
 export const routes: Routes = [
   {
@@ -19,6 +20,7 @@ export const routes: Routes = [
           { path: '', component: ListComponent },
           { path: 'from', component: FromComponent },
           { path: 'interval', component: IntervalComponent },
+          { path: 'of-from', component: OfFromComponent },
         ],
       },
     ],
